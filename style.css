@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+header {
+	background-color: #1F4456;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+}
+
+.header-left {
+	padding-left: 100px;
+	line-height: 50px;
+}
+
+.i-bar {
+	float: right;
+	display: none;
+	font-size: 30px;
+	line-height: 50px;
+	padding:0px 20px;
+	color: white;
+}
+
+.logo {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	float: left;
+	}
+
+.header-right {
+	float: right;
+	padding-right: 100px;
+	line-height: 50px;
+}
+
+.header-right a {
+	display: inline-block;
+	padding: 0px 20px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: normal;
+}
+
+.header-right a:hover {
+	color: #B4D4E3;
+	background-color: #275267;
+}
+
+
+
+.top-wrapper{
+	height: 450px;
+	background-image: url("../img/main-vsual-nontitle.png");
+	background-size: cover;
+	text-align: center;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+
+.top-wrapper h1 {
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 50px;
+	color: #1F4456;
+	padding: 150px 0px 10px 0px;
+}
+
+.top-wrapper p {
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #1F4456;
+    line-height: 20px;	
+}
+
+.heading {
+	padding-bottom: 30px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#1F4456;
+}
+
+.about-wrapper {
+	background-color: white;
+	margin-top: 30px;
+	padding: 30px 0px 50px 0px;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	padding:0px 180px;
+}
+
+.flex-item1 {
+	margin: 10px;
+	width: 100%;
+	color: #404040;
+}
+
+.flex-item1 img {
+	width: 100%;
+}
+
+.flex-item1 p {
+	
+}
+
+.course-wrapper {
+	background-color: #F8F8F8;
+	padding: 30px 0px 50px 0px;
+}
+
+.flex-container2 {
+	display: flex;
+	justify-content: center;
+	padding:0px 50px;
+}
+
+.flex-item2 {
+	margin: 10px;
+	box-sizing: border-box;
+	color: #404040;
+}
+
+.flex-item2 img {
+	width: 100%;
+}
+
+.flex-item2 p {
+	margin: 4px 0px;
+}
+
+.message-wrapper {
+	background-color: white;
+	width: 100%;
+	padding:30px 0px;
+}
+
+.message-contents {
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.male-box input {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 8px 0;
+	padding: 10px;
+	transition: 0.3s;
+	border: 2px solid #BCBCBC;
+	border-radius: 30px;
+}
+
+.male-box input:focus {
+    border: 2px solid #ff9900; 
+    z-index: 10;
+    outline: 0;
+}
+
+.message-btn a {
+	display: inline-block;
+	background-color: #E24D47;
+	padding: 15px 60px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	border: none;
+}
+
+.message-btn a:hover {
+	background-color: #F07A75;
+}
+
+
+footer{
+	height: 80px;
+	background-color: #F8F8F8;
+}
+
+footer p {
+	font-size: 12px;
+	text-align: center;
+	line-height: 80px;
+}
